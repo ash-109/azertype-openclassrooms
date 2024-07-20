@@ -16,35 +16,44 @@
         <p>AzerType est une application en ligne pour apprendre à taper plus vite au clavier :)</p>
     </header>
     <main>
-        <div class="container">
+        
+            <form action="">
             <p class="instruction">
                 Choisissez votre option et tapez la proposition qui s'affiche dans le champ en-dessous.
             </p>
-            <div>
-            <input type="radio" name="" id="mots" value="1" checked>
-            <label for="mots">Mots</label>
-            <input type="radio" name="" id="phrases" value="1">
-            <label for="phrases">Phrases</label>
-</div>
-        
-        <div class="proposition">
 
+            <div class="input_radio">
+                <div>
+                    <input type="radio" name="" id="mots" value="1" checked>
+                    <label for="mots">Mots</label>
+                </div>
+                <div>
+                    <input type="radio" name="" id="phrases" value="1">
+                    <label for="phrases">Phrases</label>
+                </div>
+            </div>
+
+            <div class="proposition">
+
+            </div>
+            <div class="saisieJoueur">
+                <input type="text" id="" name="">
+                <button>Valider</button>
+            </div>
+            <div class="score">
+                Votre score : <span> 0 </span>
+            </div>
+            <div class="partage">
+                <button>Partager</button>
+            </div>
+            </form>
         </div>
-<div class="saisieJoueur">
-    <input type="text" id="" name="">
-    <button>Valider</button>
-</div>
-<div class="score">
-    Votre score : <span> 0 </span>
-</div>
-<div class="partage">
-    <button>Partager</button>
-</div></div>
+        
     </main>
     <footer>
-    @Copyright : Openclassrooms. 
-</footer>
-<!-- <div class="popupBackground">
+        @Copyright : Openclassrooms.
+    </footer>
+    <!-- <div class="popupBackground">
     <div class="popup">
         <div>Partagez votre score</div>
         <form novalidate>
@@ -53,9 +62,9 @@
             <label for="email">Avec qui voulez-vous partager votre score ?</label>
             <input type="email" id="email" name="email" placeholder="nom@domaine.com">
             <button id="btnEnvoyerMail">Envoyer</button> -->
-        </form>
+    </form>
     </div>
-</div>
+    </div>
 
 
     <script src="script.js"></script>
