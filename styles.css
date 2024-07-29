@@ -36,7 +36,7 @@ h2 {
   color: var(--color-secondary);
 }
 
-form{
+.container{
   background: var(--color-secondary);
   color: var(--color-tertiary);
   padding: 30px;
@@ -52,11 +52,11 @@ form{
 .instruction {
   text-align: center;
 }
-.input_radio{
+.choixListe{
   display: flex;
   gap: 20px;
 }
-.input_radio > div {
+.choixListe > div {
   display: flex;
   align-items: center;
   gap: 5px;
